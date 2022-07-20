@@ -11,6 +11,9 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-content: center;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto
 }
