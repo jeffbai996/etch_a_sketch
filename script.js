@@ -24,8 +24,8 @@ function createGrid(rows) {
 // change canvas size
 function changeSize() {
     newSize = prompt("Enter the desired number of cells per row/column: ");
-    while (newSize <= 0 || newSize >= 200 || isNaN(newSize)) {
-        newSize = prompt("Error - Please enter a value between 1 and 200:");
+    while (newSize <= 0 || newSize >= 100 || isNaN(newSize)) {
+        newSize = prompt("Error - Please enter a value between 1 and 100:");
     }
     createGrid(newSize);
 }
