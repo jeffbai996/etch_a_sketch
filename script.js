@@ -1,5 +1,7 @@
 // get the grid container and item
 const container = document.getElementById("grid-container");
+// get color picker
+const colorPicker = document.getElementById("color-picker");
 // set default value for the reset button if user does not change canvas size
 let newSize = 16;
 
@@ -15,8 +17,8 @@ function createGrid(rows) {
     for (i = 0; i < (rows * rows); i++) {
         let gridItem = document.createElement("div");
         gridItem.addEventListener("mouseover", function(){
-            gridItem.style.backgroundColor = 'black';
-        })
+            gridItem.style.backgroundColor = colorPicker.value;
+        });
         container.appendChild(gridItem).className = "grid-item";
     }
 }
