@@ -58,12 +58,3 @@ button {
 .github-icon a {
     color: black;
 }
-
-#colorPicker {
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin: 8px;
-    border: none;
-    cursor: pointer;
-}
