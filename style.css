@@ -58,3 +58,17 @@ button {
 .github-icon a {
     color: black;
 }
+
+.color-picker-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  input[type="color"] {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
